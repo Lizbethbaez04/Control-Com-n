@@ -1,0 +1,22 @@
+﻿<Window x:Class="ControlComun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ControlComun"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="68,31,0,0" TextWrapping="Wrap" Text="Correo" VerticalAlignment="Top" RenderTransformOrigin="1.054,2.367" Height="24" Width="86"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="68,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="68,88,0,0" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top" RenderTransformOrigin="0.169,-0.009"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="68,121,0,0" VerticalAlignment="Top" Height="22" Width="114"/>
+        <CheckBox x:Name="checkBox" Content="Mantener sesión iniciada" HorizontalAlignment="Left" Margin="68,160,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="uno" x:Name="radioButton" Content="RadioButton" HorizontalAlignment="Left" Margin="68,193,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="uno" x:Name="radioButton1" Content="RadioButton" HorizontalAlignment="Left" Margin="68,213,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="uno" x:Name="radioButton2" Content="RadioButton" HorizontalAlignment="Left" Margin="68,233,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="dos" x:Name="radioButton3" Content="RadioButton" HorizontalAlignment="Left" Margin="364,196,0,0" VerticalAlignment="Top"/>
+        <RadioButton GroupName="dos" x:Name="radioButton4" Content="RadioButton" HorizontalAlignment="Left" Margin="364,221,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
